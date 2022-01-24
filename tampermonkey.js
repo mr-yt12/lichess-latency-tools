@@ -18,7 +18,12 @@
     ) ||
     Array.from(document.getElementsByClassName('rclock')).find((clock) =>
       clock.className.includes('outoftime')
-    )
+    ) ||
+    !document
+      .getElementsByClassName('ruser-bottom')[0]
+      ?.getElementsByClassName('text')[0]
+      ?.innerText?.toLowerCase()
+      .includes(document.body.dataset.user)
   ) {
     return;
   }
