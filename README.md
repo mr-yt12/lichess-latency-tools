@@ -4,3 +4,6 @@ The measurements are probably not entirely accurate due to:
   - Time it takes to compute animations / process network packets and so on
  
 The script shows approximate numbers. Also it's still a BETA version, so there might be bugs. 
+
+# Installation
+Tampermonkey: https://raw.githubusercontent.com/mr-yt12/Lichess-latency-tools/main/tampermonkey.js
